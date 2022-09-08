@@ -3,8 +3,6 @@ function carrega(){
     var img = window.document.querySelector('img')
     var data = new Date()
     var hora = data.getHours()
-    var dataMin = new Date()
-    var min = dataMin.getMinutes()
 
     if(hora >= 0 && hora < 5){
         desc.innerHTML = `Agora são ${hora} horas - Boa Madrugada`
